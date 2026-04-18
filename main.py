@@ -14,4 +14,4 @@ async def root():
 
 @app.get("/teste1")
 async def funcaoteste():
-    return {"teste": True, "Numero aleatório:": random.randint(1, 10000)} 
+    return {"teste para Pr com ci/cd"} 
