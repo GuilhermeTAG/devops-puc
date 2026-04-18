@@ -14,4 +14,4 @@ async def root():
 
 @app.get("/teste1")
 async def funcaoteste():
-    return {"teste para Pr com ci/cd"} 
+    return {"teste para Pr com ci/cd mas agora da maneira certa"} 
