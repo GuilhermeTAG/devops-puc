@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 import random
 
+# 'fastapi dev main.py' no terminal para rodar 
 app = FastAPI()
 
 # http://127.0.0.1:8000/
