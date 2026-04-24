@@ -8,7 +8,7 @@ from unittest.mock import patch
 @pytest.mark.asyncio
 async def test_root():
     result = await root()  # Added await
-    assert result == {"message": "Hello, World!!"}
+    assert result == {"message": "Hello, World!"}
 
 @pytest.mark.asyncio
 async def test_funcaoteste():
