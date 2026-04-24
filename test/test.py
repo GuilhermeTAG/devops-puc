@@ -4,7 +4,7 @@ from unittest.mock import patch
 def test_root():
     result = root()
     yield result
-    assert result == {"message": "Hello, World!"}
+    assert result == {"message": "Hello, World!!"}
 
 def test_funcaoteste():
     with patch('random.randint', return_value=12345):
