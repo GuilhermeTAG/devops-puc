@@ -13,7 +13,7 @@ class Estudante(BaseModel):
     ativo: bool
 
 @app.get("/helloworld")
-async def root():
+async def hello():
     return {"message": "Hello, World!"}
 
 @app.get("/funcaoteste")
@@ -26,7 +26,7 @@ async def create_estudante(estudante: Estudante):
 
 @app.put("/estudantes/update/{id_estudante}")
 async def update_estudante(id_estudante: int):
-    return id_estudante > 0
+    return id_estudante > 0 
 
 @app.delete("/estudantes/delete/{id_estudante}")
 async def delete_estudante(id_estudante: int):
